@@ -1,0 +1,128 @@
+/* bg main color */
+/* bg secondary color #2F303A */
+/* main text color #757575*/
+/* secondary text color  */
+/* white #FFFFFF*/
+/* black color main #000000 */
+/* accection #2196F3*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --bg-second-color: #2f303a;
+  --footer-color: rgb(255, 255, 255, 0.6);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+}
+.page {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* logo  */
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.span-logo {
+  color: var(--black-color);
+}
+/* navigation */
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.site-nav .link.curent {
+  color: var(--accent-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+/* footer */
+.span-logos {
+  color: var(--white-color);
+}
+.footer {
+  background-color: var(--bg-second-color);
+}
+.link-adress {
+  color: var(--footer-color);
+  text-decoration: none;
+  font-style: normal;
+}
+/* hero */
+.hero-title {
+  color: var(--white-color);
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+/* section */
+.section-title {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* main content */
+.main.list .title {
+  color: var(--title-text-color);
+}
+/* Чим ми займаємося */
+/*  Наша команда*/
+.team.list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2px;
+}
+/* button */
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  padding: 12px 24px;
+  display: inline;
+  border: none;
+  text-decoration: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.hero-div{
+  background-color: var(--bg-second-color);
+}
